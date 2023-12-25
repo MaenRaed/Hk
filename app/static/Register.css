@@ -1,0 +1,42 @@
+
+form{
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin: 15px;
+    font-size:large;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    }
+    .User input{
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        }
+    .User {
+        text-align: left;
+    }
+    .User p {
+        text-align: left;
+        display: inline;
+        font-size: larger;
+        
+    }
+    
+    .button {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(0, 0, 0);
+        border : 2px solid rgb(0, 0, 0);
+        border-radius: 5px  ;
+        font-size: large;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+    
+        
+    }

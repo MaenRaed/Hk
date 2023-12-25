@@ -1,0 +1,38 @@
+html {
+    cursor: crosshair;
+}
+
+
+.con {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 88px;
+    transition: transform 0.6s ease-in-out;
+
+}
+
+.con .email{
+    font-size: larger;
+    margin: 6px;
+    margin-bottom: 79px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.con svg{
+    margin-right: 3px;
+}
+
+.con a{
+    text-decoration: none;
+}
+.con:hover {
+    transform: scale(1.3);
+}

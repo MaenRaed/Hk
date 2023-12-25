@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawk's Barbers</title>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'Nav.css' %}">
+    <link rel="stylesheet" href="{%static '.css' %}">
+    <link rel="icon" href="{%static 'webicon.png' %}"></head>
+<body>
+        <h1>Appointment History</h1>
+    <ul>
+        {% for appointment in appointments %}
+        <li>
+            Date: {{ appointment.Date }} | Time: {{ appointment.Time }} | Name: {{ appointment.Name }} | Email: {{ appointment.Email }} | Phone: {{ appointment.Number }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

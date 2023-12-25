@@ -1,0 +1,39 @@
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.s {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.s img {
+    width: 80%;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit:cover;
+    
+}
+
+.s h2 {
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.s p {
+    color: #666;
+}
+
+.s:hover {
+    transform: scale(1.05);
+}

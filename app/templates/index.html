@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hawk's Barbers</title>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'Home.css' %}">
+    <link rel="stylesheet" href="{%static 'Nav.css' %}">
+    <link rel="icon" href="{%static 'webicon.png' %}">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="{% static 'iconn.png'%}" alt="">
+            </div>
+            <ul>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/Services">Services</a></li>
+                <li><a href="/Book">Book</a></li>
+                <li><a href="/Contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#">Account</a>
+                    <div class="dropdown-content">
+                        {% if request.session.username %}
+                        <a href="{% url 'logout' %}">Logout</a>
+<div class="up">
+                            <li><svg width="17" height="17" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                                <path d="M18 21a1 1 0 0 0 1-1 7 7 0 1 0-14 0 1 1 0 0 0 1 1h12Z"></path>
+                              </svg>{{ request.session.username }} </li>
+</div>
+                        {% else %}
+                        <a href="/Login">Login</a>
+                        <a href="/Register">Register</a>
+                        {% endif %}
+                    </div>
+                </li>
+
+            </ul>   
+        </nav>
+    </header>
+    <div class="middle">
+        <h1 class="qu">Transform your look with our professional cuts!</h2>
+            <br>
+            <a href="/Book" style="text-decoration: none;""><button class="button1">Book</button></a>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+html {
+    cursor: crosshair;
+}
+
+
+.form2 {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: inline-block;
+
+}
+
+.Book2 input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Book2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Book2 p {
+    text-align: left;
+    display: inline;
+    font-size: larger;
+
+}
+
+.form1 {
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 15px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: inline-block;
+
+}
+
+
+.Book1 input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Book1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Book1 p {
+    text-align: left;
+    display: inline;
+    font-size: larger;
+
+}
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 90px;
+}
+
+.history a svg {
+    margin-right: 3px; 
+}
+
+.history h2 {
+    text-align: right;
+    margin: 0;
+}
+
+
+.button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+
+
